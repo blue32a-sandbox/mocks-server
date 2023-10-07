@@ -21,3 +21,7 @@ API mock: http://localhost:3100
 ## REST Client
 
 [REST Client for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+
+## メモ
+
+- [File watch mode doesn't work in docker #462](https://github.com/mocks-server/main/issues/462) ([Hot reloading](https://www.mocks-server.org/docs/guides/organizing-files/#hot-reloading))
