@@ -7,7 +7,7 @@ https://www.mocks-server.org/
 ## Server Start
 
 ```
-docker compose up
+docker-compose run --service-ports mocks
 ```
 
 API mock: http://localhost:3100

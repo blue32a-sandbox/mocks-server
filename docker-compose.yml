@@ -9,3 +9,5 @@ services:
       - 3110:3110
     volumes:
       - ./server:/input
+    environment:
+      - MOCKS_PLUGINS_INQUIRER_CLI_ENABLED=true
