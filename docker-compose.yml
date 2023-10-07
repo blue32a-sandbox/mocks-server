@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  mocks:
+    image: mocksserver/main
+    tty: true
+    ports:
+      - 3100:3100
+      - 3110:3110
+    volumes:
+      - ./server:/input
